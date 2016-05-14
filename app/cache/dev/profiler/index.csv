@@ -35,6 +35,12 @@ e11838,::1,GET,http://localhost/PremierProjet/lEscargotEstSorti/web/app_dev.php/
 520ff7,::1,GET,http://localhost/PremierProjet/lEscargotEstSorti/web/app_dev.php/view/2,1463216071,,200
 6a0171,::1,GET,http://localhost/PremierProjet/lEscargotEstSorti/web/app_dev.php/view/3,1463216074,,200
 1fb18b,::1,GET,http://localhost/PremierProjet/lEscargotEstSorti/web/app_dev.php/view/4,1463216077,,200
+<<<<<<< HEAD
 a0e3df,::1,GET,http://localhost/testbdd/web/app_dev.php/,1463218843,86edd0,200
 86edd0,::1,GET,http://localhost/testbdd/web/app_dev.php/,1463218843,,500
 a52b2f,::1,GET,http://localhost/testbdd/web/app_dev.php/,1463219040,,200
+=======
+4f813a,::1,GET,http://localhost/PremierProjet/lEscargotEstSorti/web/app_dev.php/,1463218318,,200
+c754d4,::1,GET,http://localhost/PremierProjet/lEscargotEstSorti/web/app_dev.php/,1463218363,,200
+10f0bb,::1,GET,http://localhost/PremierProjet/lEscargotEstSorti/web/app_dev.php/,1463218588,,200
+>>>>>>> 5881c0b3a2fa445ba0a933180438fbd3067502be
