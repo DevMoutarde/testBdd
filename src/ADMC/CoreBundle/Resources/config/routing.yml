@@ -1,0 +1,12 @@
+admc_core_homepage:
+    path:     /
+    defaults: { _controller: ADMCCoreBundle:Base:index }
+    
+admc_core_add:
+    path:     /add
+    defaults: { _controller: ADMCCoreBundle:Base:add }
+    
+    
+admc_core_view:
+    path:     /view/{id}
+    defaults: { _controller: ADMCCoreBundle:Base:view }

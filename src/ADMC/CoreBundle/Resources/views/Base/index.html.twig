@@ -1,0 +1,27 @@
+{# empty Twig template #}
+
+
+
+{% extends 'ADMCCoreBundle::layout.html.twig' %}
+
+
+{% block body %}
+    
+    {{ parent() }}
+    <h2>Page d'accueil</h2>
+    
+    <a  href="  {{ url }}  " >Ajout d'un élément</a>
+    
+    
+    <h3> Liste des baltringues</h3>
+    <ul>
+    {% for user in users %}
+        
+        <li> <a href="  {{ path('admc_core_view', {'id': user.id}) }}"   > {{ user.nom }} </a> </li>
+        
+    {% else %}
+        rien à afficher
+    {% endfor %}
+    </ul>
+    
+{% endblock %}

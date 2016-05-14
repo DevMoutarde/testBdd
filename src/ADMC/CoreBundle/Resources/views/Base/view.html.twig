@@ -1,0 +1,16 @@
+{# empty Twig template #}
+{% extends 'ADMCCoreBundle::layout.html.twig' %}
+
+
+{% block body %}
+    
+    {{ parent() }}
+    <h2>Affichage d'un élément</h2>
+    
+    <p> {{ user.nom }} {{ user.prenom }} </p>
+    
+    
+    
+    
+    
+{% endblock %}
